@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meridian Exchange | Strategic Policy Forum 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&family=Barlow+Condensed:wght@600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Particle canvas -->
+<canvas id="particle-canvas"></canvas>
+
+<!-- ══ NAV ══ -->
+<nav>
+  <span class="nav-logo-text">Meridian Exchange</span>
+  <ul class="nav-links">
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#roundtables">Roundtables</a></li>
+    <li><a href="#who-attends">Who Attends</a></li>
+    <li><a href="#sponsorship">Sponsorship</a></li>
+    <li><a href="#closing">Contact</a></li>
+  </ul>
+  <div class="zn-logo">
+    <div class="zn-box">
+      <span>ZENITH</span>
+      <span>NEXUS</span>
+    </div>
+    <span class="zn-caption">Corporate Nexus</span>
+  </div>
+</nav>
+
+<!-- ══ HERO ══ -->
+<section id="hero">
+  <div class="hero-inner">
+    <div class="hero-tag">Strategic Policy Forum 2026</div>
+    <h1 class="hero-title">Meridian<br>Exchange</h1>
+    <p class="hero-subtitle">Digital Sovereignty Resilience</p>
+
+    <!-- Dubai skyline SVG outline -->
+    <svg class="hero-skyline" viewBox="0 0 900 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <polyline points="0,220 20,220 20,180 35,180 35,160 50,160 50,140 60,140 60,80 65,80 65,30 70,30 70,80 80,80 80,100 90,100 90,120 100,120 100,100 110,100 110,70 115,70 115,50 120,50 120,70 130,70 130,90 140,90 140,110 150,110 150,95 160,95 160,75 165,75 165,60 170,60 170,75 175,75 175,95 185,95 185,110 200,110 200,130 210,130 210,115 220,115 220,100 230,100 230,130 240,130 240,150 260,150 260,140 270,140 270,130 280,130 280,140 290,140 290,155 300,155 300,160 310,160 310,150 320,150 320,145 330,145 330,160 340,160 340,170 360,170 360,160 380,160 380,175 400,175 400,180 420,180 420,175 440,175 440,185 460,185 460,190 480,190 480,185 500,185 500,175 520,175 520,180 540,180 540,185 560,185 560,190 600,190 600,200 650,200 650,210 700,210 700,215 750,215 750,220 900,220"
+        stroke="white" stroke-width="1.2" fill="none"/>
+    </svg>
+
+    <div class="hero-quote">
+      "The continuity question is no longer whether systems can be recovered. It is whether critical services can continue operating when infrastructure, connectivity, operations, and personnel are all under pressure simultaneously."
+    </div>
+  </div>
+
+  <div class="hero-bottom-bar">
+    <div class="hero-meta">
+      <div class="hero-meta-item">
+        <span class="dot"></span>
+        <span>8 September 2026</span>
+      </div>
+      <div class="hero-meta-item">
+        <span class="dot"></span>
+        <span>JW Marriott Marina | Dubai</span>
+      </div>
+    </div>
+    <div class="hero-tagline">Resilience in the era of geopolitical risk</div>
+    <div class="zn-logo">
+      <div class="zn-box">
+        <span style="font-size:10px;">ZENITH</span>
+        <span style="font-size:10px;">NEXUS</span>
+      </div>
+      <span class="zn-caption">Corporate Nexus</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FORUM OVERVIEW ══ -->
+<section id="overview">
+  <div class="container">
+    <div class="overview-grid">
+      <div class="overview-body reveal">
+        <div class="section-label">Forum Overview</div>
+        <h2 class="overview-title">A Working Forum for Policy and Infrastructure Leaders</h2>
+        <p>Meridian Exchange is a closed-door policy and industry forum focused on digital resilience, sovereign data governance, and future infrastructure security.</p>
+        <p>The event brings together stakeholders responsible for policy, infrastructure, regulation, investment, cybersecurity, and operations.</p>
+        <p>Unlike a traditional conference, Meridian Exchange is structured around working roundtables designed to encourage direct participation and practical discussion.</p>
+      </div>
+      <div class="stats-grid reveal">
+        <div class="stat-card">
+          <div class="stat-number">100–120</div>
+          <div class="stat-label">Senior Delegates</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">4</div>
+          <div class="stat-label">Strategic Roundtables</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">1</div>
+          <div class="stat-label">White Paper Outcome</div>
+        </div>
+        <div class="stat-card" style="background: var(--navy-raised); border-color: rgba(0,188,212,0.4);">
+          <div class="stat-number" style="font-size:36px;">Invitation<br>Only</div>
+          <div class="stat-label">Closed forum</div>
+        </div>
+      </div>
+    </div>
+    <div class="slide-footer">MERIDIAN EXCHANGE &nbsp;|&nbsp; Strategic Policy Forum 2026</div>
+  </div>
+</section>
+
+<!-- ══ WHY NOW ══ -->
+<section id="why-now">
+  <div class="container">
+    <div class="section-label reveal">Why Now?</div>
+    <h2 class="section-title reveal">Three Forces Converging</h2>
+    <p class="section-intro reveal">The intersection of geopolitical instability, infrastructure dependency, and digital sovereignty demands a new model of strategic dialogue.</p>
+    <div class="three-col">
+      <div class="numbered-card reveal">
+        <div class="card-number">01</div>
+        <div class="card-title">Geopolitical Risk</div>
+        <div class="card-body">Escalating tensions between major powers are creating new risks for cross-border data flows, cloud service continuity, and infrastructure access. Nations can no longer assume uninterrupted access to digital services hosted in foreign jurisdictions.</div>
+      </div>
+      <div class="numbered-card reveal">
+        <div class="card-number">02</div>
+        <div class="card-title">Infrastructure Dependency</div>
+        <div class="card-body">Critical national services increasingly depend on concentrated infrastructure — hyperscale cloud, submarine cables, and centralised data centres. A single point of failure can cascade across entire economies.</div>
+      </div>
+      <div class="numbered-card reveal">
+        <div class="card-number">03</div>
+        <div class="card-title">Digital Sovereignty</div>
+        <div class="card-body">Governments are accelerating efforts to establish sovereign control over data, infrastructure, and digital services. The regulatory and operational frameworks for this transition remain undefined.</div>
+      </div>
+    </div>
+    <div class="slide-footer">MERIDIAN EXCHANGE &nbsp;|&nbsp; Strategic Policy Forum 2026</div>
+  </div>
+</section>
+
+<!-- ══ CORE THEMES ══ -->
+<section id="themes">
+  <div class="container">
+    <div class="section-label reveal">Discussion Framework</div>
+    <h2 class="section-title reveal">Core Discussion Themes</h2>
+    <div class="six-grid" style="margin-top:40px;">
+      <div class="theme-card reveal">
+        <div class="theme-card-title">Digital Sovereignty</div>
+        <div class="theme-card-body">National control over critical data assets, cloud infrastructure, and digital services.</div>
+      </div>
+      <div class="theme-card reveal">
+        <div class="theme-card-title">Infrastructure Resilience</div>
+        <div class="theme-card-body">Ensuring continuity of operations when physical and digital systems face simultaneous pressure.</div>
+      </div>
+      <div class="theme-card reveal">
+        <div class="theme-card-title">Quantum Security</div>
+        <div class="theme-card-body">Preparing cryptographic infrastructure for the post-quantum era.</div>
+      </div>
+      <div class="theme-card reveal">
+        <div class="theme-card-title">Cloud Continuity</div>
+        <div class="theme-card-body">Maintaining sovereign access to cloud services during periods of geopolitical disruption.</div>
+      </div>
+      <div class="theme-card reveal">
+        <div class="theme-card-title">International Cooperation</div>
+        <div class="theme-card-body">Frameworks for cross-border data governance and mutual infrastructure support.</div>
+      </div>
+      <div class="theme-card reveal">
+        <div class="theme-card-title">Critical Infrastructure</div>
+        <div class="theme-card-body">Protecting essential services from cascading failures across interconnected systems.</div>
+      </div>
+    </div>
+    <div class="slide-footer">MERIDIAN EXCHANGE &nbsp;|&nbsp; Strategic Policy Forum 2026</div>
+  </div>
+</section>
+
+<!-- ══ PROGRAMME ══ -->
+<section id="programme">
+  <div class="container">
+    <div class="section-label reveal">Event Programme</div>
+    <h2 class="section-title reveal">The Strategic Journey</h2>
+    <div class="programme-grid" style="margin-top:48px;">
+      <ul class="programme-list reveal">
+        <li class="programme-item"><span class="programme-item-text">Arrival &amp; Registration</span></li>
+        <li class="programme-item"><span class="programme-item-text">Opening Remarks</span></li>
+        <li class="programme-item"><span class="programme-item-text">Strategic Roundtables</span></li>
+        <li class="programme-item"><span class="programme-item-text">Three-Course Working Luncheon</span></li>
+        <li class="programme-item"><span class="programme-item-text">Policy Discussions</span></li>
+        <li class="programme-item"><span class="programme-item-text">White Paper Outcomes</span></li>
+        <li class="programme-item"><span class="programme-item-text">Meridian Dialogue Reception</span></li>
+      </ul>
+      <div class="format-box reveal">
+        <div class="format-box-title">Event Format</div>
+        <ul class="format-list">
+          <li>Invitation Only</li>
+          <li>120–150 Senior Delegates</li>
+          <li>Chatham House Rule</li>
+          <li>Working Roundtable Format</li>
+          <li>White Paper Outcomes</li>
+          <li>English with Arabic Interpretation</li>
+        </ul>
+      </div>
+    </div>
+    <div class="slide-footer">MERIDIAN EXCHANGE &nbsp;|&nbsp; Strategic Policy Forum 2026</div>
+  </div>
+</section>
+
+<!-- ══ ROUNDTABLES ══ -->
+<section id="roundtables">
+  <div class="container">
+    <div class="section-label reveal">The Roundtables</div>
+    <h2 class="section-title reveal">Four Working Sessions</h2>
+    <div class="rt-grid" style="margin-top:48px;">
+
+      <div class="rt-card reveal">
+        <div class="rt-left">
+          <div class="rt-label">Roundtable 1</div>
+          <div class="rt-title">Digital Sovereignty &amp; Data Governance</div>
+          <div class="rt-question">How should nations define and protect sovereign data assets in an era of distributed cloud infrastructure?</div>
+        </div>
+        <div class="rt-right">
+          <div class="rt-areas-label">Key Discussion Areas</div>
+          <div class="rt-pills">
+            <div class="rt-pill">National data classification frameworks</div>
+            <div class="rt-pill">Sovereign cloud requirements and certification</div>
+            <div class="rt-pill">Cross-border data flow agreements</div>
+            <div class="rt-pill">Digital asset protection during geopolitical disruption</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rt-card reveal">
+        <div class="rt-left">
+          <div class="rt-label">Roundtable 2</div>
+          <div class="rt-title">Infrastructure Resilience &amp; Continuity</div>
+          <div class="rt-question">What does true operational continuity look like when physical infrastructure, connectivity, and personnel face simultaneous pressure?</div>
+        </div>
+        <div class="rt-right">
+          <div class="rt-areas-label">Key Discussion Areas</div>
+          <div class="rt-pills">
+            <div class="rt-pill">Multi-layered redundancy beyond traditional DR</div>
+            <div class="rt-pill">Supply chain resilience for critical infrastructure</div>
+            <div class="rt-pill">Workforce continuity under sustained disruption</div>
+            <div class="rt-pill">Cross-sector dependency mapping</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rt-card reveal">
+        <div class="rt-left">
+          <div class="rt-label">Roundtable 3</div>
+          <div class="rt-title">Quantum Security &amp; Cryptographic Transition</div>
+          <div class="rt-question">How should governments and operators prepare cryptographic infrastructure for the post-quantum era?</div>
+        </div>
+        <div class="rt-right">
+          <div class="rt-areas-label">Key Discussion Areas</div>
+          <div class="rt-pills">
+            <div class="rt-pill">Post-quantum cryptography migration timelines</div>
+            <div class="rt-pill">Harvest-now-decrypt-later threat assessment</div>
+            <div class="rt-pill">National quantum-readiness frameworks</div>
+            <div class="rt-pill">Standards harmonisation across jurisdictions</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rt-card reveal">
+        <div class="rt-left">
+          <div class="rt-label">Roundtable 4</div>
+          <div class="rt-title">Cloud Continuity &amp; International Cooperation</div>
+          <div class="rt-question">What frameworks are needed to ensure sovereign access to cloud services during periods of geopolitical instability?</div>
+        </div>
+        <div class="rt-right">
+          <div class="rt-areas-label">Key Discussion Areas</div>
+          <div class="rt-pills">
+            <div class="rt-pill">Bilateral and multilateral data agreements</div>
+            <div class="rt-pill">Emergency access protocols for critical services</div>
+            <div class="rt-pill">Hyperscaler governance and accountability</div>
+            <div class="rt-pill">Regional infrastructure cooperation models</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="slide-footer">MERIDIAN EXCHANGE &nbsp;|&nbsp; Strategic Policy Forum 2026</div>
+  </div>
+</section>
+
+<!-- ══ WHO ATTENDS ══ -->
+<section id="who-attends">
+  <div class="container">
+    <div class="section-label reveal">Who Attends</div>
+    <h2 class="section-title reveal">Executive Stakeholder Matrix</h2>
+    <div class="stakeholder-grid" style="margin-top:48px;">
+      <div class="stakeholder-card reveal">
+        <div class="stakeholder-label">Government</div>
+        <ul class="stakeholder-list">
+          <li>Ministries</li>
+          <li>Regulators</li>
+          <li>Cybersecurity Authorities</li>
+          <li>Foreign Affairs</li>
+          <li>Digital Economy Agencies</li>
+        </ul>
+      </div>
+      <div class="stakeholder-card reveal">
+        <div class="stakeholder-label">Industry</div>
+        <ul class="stakeholder-list">
+          <li>Hyperscalers</li>
+          <li>Telecom Operators</li>
+          <li>Data Centre Operators</li>
+          <li>Cloud Providers</li>
+          <li>Quantum Security Vendors</li>
+        </ul>
+      </div>
+      <div class="stakeholder-card reveal">
+        <div class="stakeholder-label">Investment</div>
+        <ul class="stakeholder-list">
+          <li>Sovereign Wealth Funds</li>
+          <li>Infrastructure Investors</li>
+          <li>Development Finance</li>
+          <li>Private Equity</li>
+        </ul>
+      </div>
+      <div class="stakeholder-card reveal">
+        <div class="stakeholder-label">Advisory</div>
+        <ul class="stakeholder-list">
+          <li>International Law Firms</li>
+          <li>Management Consultancies</li>
+          <li>Strategy Advisors</li>
+          <li>Risk &amp; Compliance</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="org-grid">
+      <div class="org-tile reveal">Government &amp; Regulatory</div>
+      <div class="org-tile reveal">Cybersecurity Authorities</div>
+      <div class="org-tile reveal">Central Banks</div>
+      <div class="org-tile reveal">Foreign Affairs Ministries</div>
+      <div class="org-tile reveal">Cloud Providers</div>
+      <div class="org-tile reveal">Hyperscalers</div>
+      <div class="org-tile reveal">Data Centre Operators</div>
+      <div class="org-tile reveal">Quantum Security Vendors</div>
+      <div class="org-tile reveal">Sovereign Wealth Funds</div>
+      <div class="org-tile reveal">Law Firms</div>
+      <div class="org-tile reveal">Consulting Firms</div>
+      <div class="org-tile reveal">Diplomatic Missions</div>
+    </div>
+    <div class="slide-footer">MERIDIAN EXCHANGE &nbsp;|&nbsp; Strategic Policy Forum 2026</div>
+  </div>
+</section>
+
+<!-- ══ EVENT FORMAT ══ -->
+<section id="event-format">
+  <div class="container">
+    <div class="section-label reveal">Event Format</div>
+    <h2 class="section-title reveal">Designed for Dialogue, Not Presentations</h2>
+    <div class="format-page-grid" style="margin-top:48px;">
+      <div class="format-flow reveal">
+        <div class="flow-item">Roundtable Conference</div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-item">Three-Course Working Luncheon</div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-item">Policy Discussions</div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-item">White Paper Outcomes</div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-item">Meridian Dialogue Reception</div>
+      </div>
+      <div class="format-right reveal">
+        <div class="format-stats-row">
+          <div class="fmt-stat">
+            <div class="fmt-stat-val">120–150</div>
+            <div class="fmt-stat-label">Delegates</div>
+          </div>
+          <div class="fmt-stat">
+            <div class="fmt-stat-val" style="font-size:26px;">Invitation</div>
+            <div class="fmt-stat-label">Only</div>
+          </div>
+          <div class="fmt-stat">
+            <div class="fmt-stat-val" style="font-size:18px; line-height:1.3;">Chatham House</div>
+            <div class="fmt-stat-label">Rule</div>
+          </div>
+          <div class="fmt-stat">
+            <div class="fmt-stat-val" style="font-size:16px; line-height:1.4;">English with Arabic</div>
+            <div class="fmt-stat-label">Interpretation</div>
+          </div>
+        </div>
+        <div class="characteristics-box">
+          <div class="char-title">Event Characteristics</div>
+          <ul class="char-list">
+            <li><span class="check">✓</span> Invitation Only</li>
+            <li><span class="check">✓</span> Chatham House Rule</li>
+            <li><span class="check">✓</span> Government &amp; Industry Participation</li>
+            <li><span class="check">✓</span> Working Roundtable Format</li>
+            <li><span class="check">✓</span> White Paper Outcomes</li>
+            <li><span class="check">✓</span> Strategic Dialogue</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="slide-footer">MERIDIAN EXCHANGE &nbsp;|&nbsp; Strategic Policy Forum 2026</div>
+  </div>
+</section>
+
+<!-- ══ WHY PARTICIPATE ══ -->
+<section id="why-participate">
+  <div class="container">
+    <div class="section-label reveal">Why Participate</div>
+    <h2 class="section-title reveal">Strategic Value of Participation</h2>
+    <div class="participate-grid" style="margin-top:48px;">
+      <div class="participate-card reveal">
+        <div class="participate-title">Policy Dialogue</div>
+        <div class="participate-body">Direct engagement with policymakers, regulators, and infrastructure leaders shaping the regulatory and operational response to digital sovereignty challenges.</div>
+      </div>
+      <div class="participate-card reveal">
+        <div class="participate-title">Industry Collaboration</div>
+        <div class="participate-body">Exchange perspectives with operators, investors, cloud providers, and cybersecurity specialists working on the same set of problems from different vantage points.</div>
+      </div>
+      <div class="participate-card reveal">
+        <div class="participate-title">Strategic Visibility</div>
+        <div class="participate-body">Participate in discussions shaping future approaches to digital resilience and sovereign infrastructure — before the frameworks are finalised.</div>
+      </div>
+    </div>
+    <div class="slide-footer">MERIDIAN EXCHANGE &nbsp;|&nbsp; Strategic Policy Forum 2026</div>
+  </div>
+</section>
+
+<!-- ══ MARKETING REACH ══ -->
+<section id="marketing">
+  <div class="container">
+    <div class="section-label reveal">Event Marketing Outreach</div>
+    <h2 class="section-title reveal">Integrated Marketing Campaign</h2>
+    <div class="marketing-grid" style="margin-top:48px;">
+      <div class="marketing-card reveal">
+        <span class="mkt-icon">🖥</span>
+        <div class="mkt-number">+10,000</div>
+        <div class="mkt-sublabel">Combined monthly views</div>
+        <div class="mkt-label">Website</div>
+      </div>
+      <div class="marketing-card reveal">
+        <span class="mkt-icon">▶</span>
+        <div class="mkt-number">+2,000</div>
+        <div class="mkt-sublabel">Video Views</div>
+        <div class="mkt-label">Video Promotion</div>
+      </div>
+      <div class="marketing-card reveal">
+        <span class="mkt-icon">✉</span>
+        <div class="mkt-number">+5,000</div>
+        <div class="mkt-sublabel">Active Subscribers</div>
+        <div class="mkt-label">Newsletter</div>
+      </div>
+      <div class="marketing-card reveal">
+        <span class="mkt-icon">◈</span>
+        <div class="mkt-number">+100,000</div>
+        <div class="mkt-sublabel">Impressions</div>
+        <div class="mkt-label">Google Display</div>
+      </div>
+      <div class="marketing-card reveal">
+        <span class="mkt-icon">☎</span>
+        <div class="mkt-number">+500</div>
+        <div class="mkt-sublabel">Customised client invitations</div>
+        <div class="mkt-label">Telesales</div>
+      </div>
+      <div class="marketing-card reveal">
+        <span class="mkt-icon">📨</span>
+        <div class="mkt-number">+250,000</div>
+        <div class="mkt-sublabel">Combined Reach</div>
+        <div class="mkt-label">Email</div>
+      </div>
+      <div class="marketing-card reveal">
+        <span class="mkt-icon">📰</span>
+        <div class="mkt-number">+2</div>
+        <div class="mkt-sublabel">GCC Wide</div>
+        <div class="mkt-label">Press Release</div>
+      </div>
+      <div class="marketing-card reveal">
+        <span class="mkt-icon">📱</span>
+        <div class="mkt-number">+100,000</div>
+        <div class="mkt-sublabel">Impressions</div>
+        <div class="mkt-label">Social Media Paid</div>
+      </div>
+    </div>
+    <div class="slide-footer">MERIDIAN EXCHANGE &nbsp;|&nbsp; Strategic Policy Forum 2026</div>
+  </div>
+</section>
+
+<!-- ══ SPONSORSHIP ══ -->
+<section id="sponsorship">
+  <div class="container">
+    <div class="section-label reveal">Strategic Participation Opportunities</div>
+    <h2 class="section-title reveal">Sponsorship Packages</h2>
+    <div class="sponsor-grid" style="margin-top:48px;">
+      <div class="sponsor-card reveal">
+        <div class="sponsor-tier">Founding Partner</div>
+        <div class="sponsor-price">AED 500,000</div>
+        <div class="sponsor-desc">Full policy engagement as a founding institutional partner. White paper co-authorship, roundtable leadership, and strategic visibility across all sessions.</div>
+      </div>
+      <div class="sponsor-card reveal">
+        <div class="sponsor-tier">Strategic Partner</div>
+        <div class="sponsor-price">AED 250,000</div>
+        <div class="sponsor-desc">Active participation in roundtable discussions with direct stakeholder access, policy contribution, and post-event engagement.</div>
+      </div>
+      <div class="sponsor-card reveal">
+        <div class="sponsor-tier">Supporting Partner</div>
+        <div class="sponsor-price">AED 100,000</div>
+        <div class="sponsor-desc">Targeted engagement with delegate access, participation in policy discussions, and contribution to white paper outcomes.</div>
+      </div>
+      <div class="sponsor-card reveal">
+        <div class="sponsor-tier">Reception Partner</div>
+        <div class="sponsor-price">AED 50,000</div>
+        <div class="sponsor-desc">Host the Meridian Dialogue Reception — an exclusive evening of strategic networking with senior delegates and policymakers.</div>
+      </div>
+    </div>
+    <div class="slide-footer">MERIDIAN EXCHANGE &nbsp;|&nbsp; Strategic Policy Forum 2026</div>
+  </div>
+</section>
+
+<!-- ══ CLOSING ══ -->
+<section id="closing">
+  <div class="closing-bg"></div>
+  <div class="container" style="position:relative;">
+    <div class="closing-label reveal">Meridian Exchange</div>
+    <div class="closing-quote reveal">
+      "Resilient digital economies require resilient digital infrastructure."
+    </div>
+    <p class="closing-subtext reveal">
+      Meridian Exchange brings together policymakers, regulators, infrastructure operators, technology providers, investors, and security specialists to examine the future of digital continuity and sovereign resilience.
+    </p>
+    <div class="closing-meta reveal">
+      <span><strong>Dubai, UAE</strong></span>
+      <span><strong>8 September 2026</strong></span>
+      <span>Invitation Only</span>
+    </div>
+    <div class="closing-curated reveal">Curated by Zenith Nexus</div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="footer-left">MERIDIAN EXCHANGE &nbsp;|&nbsp; Strategic Policy Forum 2026</div>
+  <div class="footer-contact">
+    For more information contact: <strong>Mohammed Malik Raihan</strong><br>
+    Tel: <a href="tel:+971552893299">+971 55 289 3299</a> &nbsp;|&nbsp;
+    Email: <a href="mailto:mohammed@zenithnexus.com">mohammed@zenithnexus.com</a>
+  </div>
+</footer>
+
+<script src="js/app.js"></script>
+</html>
